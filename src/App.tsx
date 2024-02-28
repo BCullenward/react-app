@@ -15,8 +15,10 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
-      <div className="alert alert-primary">
-        <Alert />
+      <div>
+        <Alert>
+          Hello <span>World</span>
+        </Alert>
       </div>
     </div>
   );
